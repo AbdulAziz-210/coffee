@@ -1,0 +1,126 @@
+// .choose-section{
+//     margin-bottom: 200px;
+// }
+.choose{
+    height: 577px;
+    background-color: #282F38;
+    border-radius: 8px;
+
+    margin-top: 141px;
+    position: relative;
+}
+.choose__content{
+    padding-bottom: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose__title{
+    margin: 100px 0 32px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+}
+.choose__text{
+    width: 540px;
+    color: #FEFCF7;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+}
+
+
+// Choose card
+
+
+.choose__list{
+    margin-bottom: 200px;
+    display: flex;
+    position: absolute;
+    top: 351px;
+    left: 80px;
+}
+.best__item+.best__item{
+    margin-left: 20px;
+}
+.best__item{
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 382px;
+    border-radius: 8px;
+    background-color: #0E8784;
+    transition: background-color 0.4s ease;
+
+    &:hover{
+        background-color: #FDD6BA;
+        cursor: pointer;
+    }
+    &:active{
+        background-color: #F4F1EB;;
+    }
+}
+.best__img{
+    margin: 72px 0 56px;
+
+
+
+
+    // .footer__net-img:hover > path {
+    //     cursor: pointer;
+    // }
+    
+    
+}
+.best__item:hover > .best__img > g > path{
+    fill: #0E8784;
+}
+.best__item:hover > .best__img > path{
+    fill: #0E8784;
+}
+.best__item:hover > .best__title{
+    color: #333D4B;
+}
+.best__item:hover > .best__text{
+    color: #333D4B;
+}
+
+
+.best__title{
+    color: #FEFCF7;
+    text-align: center; 
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+.best__text{
+    width: 255px;
+    color: #FEFCF7;
+    text-align: center; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+

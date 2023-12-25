@@ -1,0 +1,41 @@
+
+
+.our-section{
+    margin-bottom: 200px;
+}
+
+
+.our{
+    background-image: url(../images/our/our\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.our__list{
+    display: flex;
+}
+.our__item{
+    width: 295px;
+}
+.our__img{
+    margin-top: 126px;
+}
+.our__title{
+    margin-bottom: 24px;
+    color: #333D4B;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+.our__text{
+    width: 255px;
+    color: #333D4B;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
