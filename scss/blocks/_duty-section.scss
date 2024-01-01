@@ -1,0 +1,84 @@
+
+
+
+.duty{
+    background-color: #282F38;
+    padding: 110px 0 0 105px;
+}
+.duty__sphere{
+    // padding-top: 168px;
+    margin-bottom: 67px;
+    position: relative;
+    width: 760px;
+    height: 2px;
+    background-color: #FDD6BA;
+}
+.sphere__1{
+    position: absolute;
+    height: 31px;
+    width: 31px;
+    border: 2px solid #0E8784;
+    background-color: #282F38;
+    border-radius: 50%;
+    left: 0;
+    top: -14px;
+}
+.sphere__2{
+    position: absolute;
+    height: 31px;
+    width: 31px;
+    border: 2px solid #0E8784;
+    background-color: #282F38;
+    border-radius: 50%;
+    top: -14px;
+    right: 50%;
+}
+.sphere__3{
+    position: absolute;
+    height: 31px;
+    width: 31px;
+    border: 2px solid #0E8784;
+    background-color: #282F38;
+    border-radius: 50%;
+    top: -14px;
+    right: 0;
+}
+.previous__list{
+    display: flex;
+    align-items: center;
+    padding-bottom: 64px;
+}
+.previous__item+.previous__item{
+    margin-left: 95px;
+}
+.previous__item{
+    width: 285px;
+}
+.previous__number{
+    margin-bottom: 38px;
+    color: #FDD6BA;
+    font-family: "Fraunces", serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+}
+.previous__title--accend{
+    padding: 0 17px 0px 0;
+}
+.previous__title{
+    margin-bottom: 43px;
+    color: #FEFCF7;
+    font-family: "Fraunces",serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; 
+}
+.previous__text{
+    color: #FEFCF7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}

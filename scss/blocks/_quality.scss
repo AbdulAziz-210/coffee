@@ -1,0 +1,44 @@
+
+
+
+.quality-section{
+    margin-bottom: 168px;
+}
+
+.quality{
+    position: relative;
+    display: flex;
+    
+    background-image: url("../../images/about-us/background.png");
+    background-size: 100%;
+}
+.quality__content{
+    width: 540px;
+    margin: 100px 0 156px 85px;
+}
+.quality__title{
+    margin-bottom: 32px;
+    color: #FEFCF7;
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+}
+.quality__text{
+    color: #FEFCF7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    opacity: 0.8;
+}
+.quality__img{
+    position: absolute;
+    background-image: url("../images/about-us/background.png");
+    right: 51px;
+    bottom: 100px;
+    border-radius: 10px;
+
+    
+}

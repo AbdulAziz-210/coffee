@@ -1,0 +1,43 @@
+
+
+
+.country-section{
+    margin-bottom: 168px;
+}
+
+.country__list{
+    display: flex;
+    align-items: center;
+}
+.country__title{
+    margin-bottom: 72px;
+    color: #83888F;
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.country__inner-title{
+    color: #333D4B;
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+}
+.country__text{
+    width: 285px;
+    color: #333D4B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.country__item{
+    width: 272px;
+}
+.country__item+.country__item{
+    margin-left: 108px;
+}
